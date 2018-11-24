@@ -1,0 +1,9 @@
+# Gradle
+.gradle
+build
+
+# Visual Studio Code
+.project
+.settings
+.classpath
+bin
