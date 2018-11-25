@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-mainClassName = 'App'
+mainClassName = 'Application'
 
 dependencies {
     compile 'com.google.guava:guava:23.0'

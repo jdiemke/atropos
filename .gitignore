@@ -6,4 +6,9 @@ build
 .project
 .settings
 .classpath
+.vscode
 bin
+
+# IntelliJ IDEA
+.idea
+atropos.iml
