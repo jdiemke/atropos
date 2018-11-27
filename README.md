@@ -3,12 +3,12 @@ Atropos is a software rasterizer written in Java.
 
 ## Run Application
 Run the application using:
-```
-> ./gradlew run
+```bash
+./gradlew run
 ```
 
 ## Create a fat JAR
 Create an executable fat JAR file using:
-```
-> ./gradlew shadowJar
+```bash
+./gradlew shadowJar
 ```
