@@ -32,6 +32,8 @@ class Window extends JFrame {
 
         framebuffer = new Framebuffer();
 
+        scene.init();
+
         new Timer().scheduleAtFixedRate(new TimerTask() {
 
             @Override
@@ -46,6 +48,7 @@ class Window extends JFrame {
                     if (graphics2D != null) {
                         graphics2D.dispose();
                     }
+                    System.err.println(ex);
                 }
             }
 

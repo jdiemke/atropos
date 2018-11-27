@@ -1,12 +1,12 @@
 plugins {
     id 'java'
     id 'application'
+    id 'com.github.johnrengelman.shadow' version '4.0.3'
 }
 
 mainClassName = 'Application'
 
 dependencies {
-    compile 'com.google.guava:guava:23.0'
     testCompile 'junit:junit:4.12'
 }
 
