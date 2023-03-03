@@ -7,7 +7,7 @@ public class Application {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            Window window = new Window(640, 480, new NoiseScene(), 30);
+            Window window = new Window(640, 480, new NoiseScene(), 24);
         });
     }
 

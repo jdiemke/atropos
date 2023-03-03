@@ -44,6 +44,7 @@ class Window extends JFrame {
                     scene.render(framebuffer);
                     graphics2D.drawImage(framebuffer.getBufferedImage(), insets.left, insets.top, 640, 480, null);
                     bufferStrategy.show();
+                    graphics2D.dispose();
                 } catch (Exception ex) {
                     if (graphics2D != null) {
                         graphics2D.dispose();
